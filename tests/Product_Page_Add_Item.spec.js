@@ -7,3 +7,7 @@ test('Product Page Add to Basket', async ({ page }) => {
   const AddtoBasketButton = page.getByRole('button', { name: 'Add to Basket' }).first();
   await AddtoBasketButton.click();
 });
+<<<<<<< HEAD
+=======
+cd
+>>>>>>> 002db97 (adding shopping store automation project)
